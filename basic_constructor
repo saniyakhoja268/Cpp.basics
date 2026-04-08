@@ -1,0 +1,22 @@
+
+#include<iostream.h>
+#include<conio.h>
+class abc
+{
+	public:
+	abc()
+	{
+		cout<<"Constructor is called of class abc";
+	}
+	void method()
+	{
+		cout<<"\nMethod is called";
+	}
+};
+void main()
+{
+	   clrscr();
+	   abc obj;
+	   obj.method();
+	   getch();
+}
