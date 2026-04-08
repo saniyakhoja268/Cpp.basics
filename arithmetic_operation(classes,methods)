@@ -1,0 +1,51 @@
+
+#include<iostream.h>
+#include<conio.h>
+class abc
+{
+	public:
+	int n1,n2;
+	float result;
+	void getData()
+	{
+		cout<<"Enter 2 numbers:";
+		cin>>n1>>n2;
+	}
+	void add()
+	{
+		result=n1+n2;
+		cout<<"Result:"<<result;
+	}
+	void subtract()
+	{
+		result=n1-n2;
+		cout<<"\nResult:"<<result;
+	}
+	void multiply()
+	{
+		result=n1*n2;
+		cout<<"\nResult:"<<result;
+	}
+	void divide()
+	{
+		result=n1/n2;
+		cout<<"\nResult:"<<result;
+	}
+	void modulus()
+	{
+		result=n1%n2;
+		cout<<"\nResult:"<<result;
+	}
+};
+void main()
+{
+	   clrscr();
+	   abc obj;
+	   obj.getData();
+	   obj.add();
+	   obj.subtract();
+	   obj.multiply();
+	   obj.divide();
+	   obj.modulus();
+	   getch();
+}
