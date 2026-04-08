@@ -1,0 +1,14 @@
+
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	   clrscr();
+	   int n1,n2;
+	   float result;
+	   cout<<"Enter 2 numbers:";
+	   cin>>n1>>n2;
+	   result=n1+n2;
+	   cout<<"Result:"<<result;
+	   getch();
+}
